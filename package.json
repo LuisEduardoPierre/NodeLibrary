@@ -1,0 +1,23 @@
+
+{
+  "_comment": "E o primeiro arquivo a ser visitado pelo programador para poder ter nocao de quais as funcionalidades do projeto",
+  "name": "nodelibrary",
+  "version": "1.0.0",
+  "description": "Modulo de aprendizado de node para leitura de arquivos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEduardoPierre/NodeLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LuisEduardoPierre/NodeLibrary/issues"
+  },
+  "homepage": "https://github.com/LuisEduardoPierre/NodeLibrary#readme"
+}
