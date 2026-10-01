@@ -13,7 +13,7 @@
 //apos isso colocamos LINK que e nossa string de acesso, o encoding e a callback que o metodo exige
 //e apos isso apenas imprimimos o texto vindo da pasta archives
 
-export function countWords(text){
+export function countWords(text){ //Esse e considerado um export nomeado, podemos ter varios exports nomeados em um mesmo arquivo, mas apenas um export default
     const PARAGRAPHS = extractParagraphs(text)
     const COUNT = PARAGRAPHS
     .flatMap((paragraph) => {
@@ -21,7 +21,7 @@ export function countWords(text){
         return verifyDuplicateWords(paragraph)
     })
         
-    console.log(COUNT)
+    return COUNT;
 }
 
 function extractParagraphs(text){
