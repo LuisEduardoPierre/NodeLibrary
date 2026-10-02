@@ -1,4 +1,3 @@
-
 {
   "_comment": "E o primeiro arquivo a ser visitado pelo programador para poder ter nocao de quais as funcionalidades do projeto",
   "name": "nodelibrary",
@@ -19,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LuisEduardoPierre/NodeLibrary/issues"
   },
-  "homepage": "https://github.com/LuisEduardoPierre/NodeLibrary#readme"
+  "homepage": "https://github.com/LuisEduardoPierre/NodeLibrary#readme",
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
 }
